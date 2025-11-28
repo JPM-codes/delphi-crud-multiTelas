@@ -1,0 +1,372 @@
+object FrmCliente: TFrmCliente
+  Left = 0
+  Top = 0
+  Caption = '..:: Cadastro de Clientes ::..'
+  ClientHeight = 468
+  ClientWidth = 360
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 360.000000000000000000
+    Size.Height = 468.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      360s
+      442s
+      360s
+      442s)
+    object TabConsulta: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Trimming = None
+      IsSelected = True
+      Size.Width = 85.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabConsulta'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Rectangle1: TRectangle
+        Align = Top
+        Fill.Color = xFF668BC4
+        Size.Width = 360.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image1: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F40000000473424954080808087C08648800000088494441545885ED94C10983
+                4010454D3A102D298287584848018285D88865A810AB919C5E8E1159C5C332A3
+                F0DF79D8F760D8491221220264400BBCBDE41FFE349E7280D1533E0385853C05
+                8695FC0B54924B2E79EC802EF0CFCB186FDF0FCEDD425D31020EB1B382A72214
+                A1883344E4C01438540FEF88DE2C6023A2360D5844B4C0CB5C2E2ECB0F2ECA1E
+                826435D93F0000000049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\left-arrow.png'
+            end>
+          Align = Left
+          WrapMode = Center
+          OnClick = Image1Click
+        end
+        object Label6: TLabel
+          Align = Left
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Position.X = 60.000000000000000000
+          Size.Width = 197.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          Text = 'Consulta de Cliente'
+          TabOrder = 0
+        end
+        object Image3: TImage
+          MultiResBitmap.Height = 24
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F80000000473424954080808087C08648800000160494441544889EDD53B6B54
+                511405E015258231A41826044114B1B5108924102C5309A6B3B4D77F60AD36A2
+                A0A036E903E9D4CA5E037609BE3A31B1B092A0100511FD2CE60C0C97993B7706
+                A6CB6A76B31EFBECF34A0E3169E00DB63135AEC1229EE01D7EE1273E601D4BF8
+                AA8333A31AB7B06938FE967AA59FCF9101E60B49B6925C4B7290E45E92E524ED
+                24AD244B491E24F9D3E371BE69E7D3D82A5D6DE3741FCE63FCAEACE451D3809B
+                45F019F303382FCB683EE139EEE25413F329EC9680AB35BCA338DEA8E38AF042
+                31DF1B593C00D54DEE6ED4AB4905B44AFD36AA1166B186637501FBA5B6470D48
+                722BC9B324D7EB02DE977A798CABBF5AEA97818CCA295A6BEA5C9E0CD81F7ABA
+                7063D83DA8F067F1B6686E37E9661AAF8B6007676BB8277BB81F313334A00817
+                8A80CEEB791FCB98C3095CC21D7C2F9C5D9C6B64DE1332870DFC538F174D4659
+                1774110F75FE831F38D0F90F9E62656CE34374F11F0F0AC35F9A055F08000000
+                0049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\refresh.png'
+            end>
+          Align = Right
+          Margins.Right = 8.000000000000000000
+          Position.X = 302.000000000000000000
+          WrapMode = Center
+          OnClick = Image3Click
+        end
+      end
+      object Rectangle7: TRectangle
+        Align = Bottom
+        Fill.Color = xFF335495
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 382.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        OnClick = Rectangle7Click
+        object Label7: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Inserir'
+          TabOrder = 0
+        end
+      end
+      object VertCliente: TVertScrollBox
+        Align = Client
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 360.000000000000000000
+        Size.Height = 322.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 360.000000000000000000
+        Viewport.Height = 322.000000000000000000
+      end
+    end
+    object TabCadastro: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Trimming = None
+      IsSelected = False
+      Size.Width = 86.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabCadastro'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Rectangle2: TRectangle
+        Align = Top
+        Fill.Color = xFF668BC4
+        Size.Width = 360.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image2: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F40000000473424954080808087C08648800000088494441545885ED94C10983
+                4010454D3A102D298287584848018285D88865A810AB919C5E8E1159C5C332A3
+                F0DF79D8F760D8491221220264400BBCBDE41FFE349E7280D1533E0385853C05
+                8695FC0B54924B2E79EC802EF0CFCB186FDF0FCEDD425D31020EB1B382A72214
+                A1883344E4C01438540FEF88DE2C6023A2360D5844B4C0CB5C2E2ECB0F2ECA1E
+                826435D93F0000000049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\left-arrow.png'
+            end>
+          Align = Left
+          WrapMode = Center
+          OnClick = Image2Click
+        end
+        object Label5: TLabel
+          Align = Left
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Position.X = 60.000000000000000000
+          Size.Width = 197.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          Text = 'Cadastro de Cliente'
+          TabOrder = 0
+        end
+      end
+      object Rectangle3: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 53.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDarkgray
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF777777
+          Text = 'Informe o nome'
+          TabOrder = 0
+        end
+        object EditNome: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Position.X = 10.000000000000000000
+          Position.Y = 22.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Nome completo do cliente'
+        end
+      end
+      object Rectangle4: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 186.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 53.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDarkgray
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        object Label2: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF777777
+          Text = 'Informe o CPF'
+          TabOrder = 0
+        end
+        object EditCPF: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Position.X = 10.000000000000000000
+          Position.Y = 22.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = '000.000.000-00'
+        end
+      end
+      object Rectangle5: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 123.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 53.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claDarkgray
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        object Label3: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF777777
+          Text = 'Informe o email'
+          TabOrder = 0
+        end
+        object EditEmail: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Position.X = 10.000000000000000000
+          Position.Y = 22.000000000000000000
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 320.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'E-mail'
+        end
+      end
+      object RecSalvar: TRectangle
+        Align = Bottom
+        Fill.Color = xFF335495
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 382.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        OnClick = RecSalvarClick
+        object Label4: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Gravar'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 168
+    Top = 224
+    object MudaAba: TChangeTabAction
+      Category = 'Tab'
+    end
+  end
+end

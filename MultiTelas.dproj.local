@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/20 19:56:57.000.787,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/21 21:25:08.000.985,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/01 22:10:59.000.897,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/02 20:09:51.000.743,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/11 19:28:02.000.276,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/04 19:59:40.000.934,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/02 15:06:08.000.903,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/02 15:40:58.000.328,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/10/16 19:41:38.000.418,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/10/16 19:43:48.000.903,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\alunos\delphi\Telas\UFrmPrincipal.fmx</Transaction>
+    <Transaction>2025/10/16 19:43:48.000.903,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\alunos\delphi\Telas\UFrmPrincipal.pas</Transaction>
+    <Transaction>2025/10/16 19:44:10.000.027,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\alunos\delphi\Telas\MultiTelas.dproj</Transaction>
+    <Transaction>2025/10/16 20:02:52.000.720,=C:\alunos\delphi\Telas\Unit1.pas</Transaction>
+    <Transaction>2025/10/16 20:03:35.000.559,C:\alunos\delphi\Telas\Unit1.pas=C:\alunos\delphi\Telas\UFrmCliente.pas</Transaction>
+    <Transaction>2025/10/16 20:03:35.000.559,C:\alunos\delphi\Telas\Unit1.fmx=C:\alunos\delphi\Telas\UFrmCliente.fmx</Transaction>
+    <Transaction>2025/10/22 19:42:37.000.254,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/22 19:44:41.000.494,C:\GIT\delphi-crud-multiTelas\Unit1.dfm=C:\GIT\delphi-crud-multiTelas\UDMDados.dfm</Transaction>
+    <Transaction>2025/10/22 19:44:41.000.494,C:\GIT\delphi-crud-multiTelas\Unit1.pas=C:\GIT\delphi-crud-multiTelas\UDMDados.pas</Transaction>
+    <Transaction>2025/10/24 20:08:52.000.826,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/24 20:10:12.000.074,C:\GIT\delphi-crud-multiTelas\UFrameCliente.fmx=C:\GIT\delphi-crud-multiTelas\Unit1.fmx</Transaction>
+    <Transaction>2025/10/24 20:10:12.000.074,C:\GIT\delphi-crud-multiTelas\UFrameCliente.pas=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/29 19:48:49.000.991,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
